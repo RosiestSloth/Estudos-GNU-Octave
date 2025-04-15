@@ -7,13 +7,13 @@ Este repositório contém códigos desenvolvidos utilizando **GNU Octave** como 
 ```bash
 .
 ├── Atividades/
-│   ├── atividade1.m
-│   ├── atividade2.m
+│   ├── Atividade_LucroTotal.m
+│   ├── Atividade_Pratica.m
 │   └── ... # outras atividades propostas em sala de aula
 │
 ├── Estudos/
-│   ├── teste_graficos3d.m
-│   ├── estudo_matrizes.m
+│   ├── Altitude.m
+│   ├── condicoes.m
 │   └── ... # scripts livres para aprender e testar conceitos
 │
 └── README.md
