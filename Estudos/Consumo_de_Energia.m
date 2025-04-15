@@ -14,5 +14,5 @@ title("Consumo  de Energia em Função da Temperatura e Umidade");
 xlabel("Temperatura (ºC)");
 ylabel("Umidade Relativa (%)");
 zlabel("Consumo (Kwh)");
-colorbar summer;
+colorbar;
 grid on;

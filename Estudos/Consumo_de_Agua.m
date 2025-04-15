@@ -25,11 +25,3 @@ mediaB = mean(consumoB);
 fprintf("Total anual do Bloco A: %.1f m² | Media mensal = %.1f m²\n", totalA, mediaA);
 fprintf("Total anual do Bloco A: %.1f m² | Media mensal = %.1f m²\n", totalB, mediaB);
 
-
-diferencas = abs(consumoA - consumoB);
-[maiorDif, mesDif] = max(diferencas);
-
-hold on;
-plot(mesDif, consumoA(mesDif), "ro", "MarkeSize", 10);
-plot(mesDif, consumoB(mesDif), "ro", "MarkeSize", 10);
-hold off;
